@@ -1,0 +1,151 @@
+/* Navbar */
+.fade-nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
+    padding: 10px 0; /* Add some padding for readability */
+}
+
+.navbar-brand img {
+    width: 20%;
+}
+
+#navbarSupportedContent {
+    font-weight: bolder; 
+    font-size: 17px;
+}
+
+/* Body */
+body {
+    background-image: url(../assets/img/pexels-pixabay-259915.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Change the font for a modern look */
+}
+
+/* Welcome Text */
+.welcome-text {
+    margin-top: 10%; /* Slightly reduce the margin */
+    text-align: center; /* Center-align the text */
+    color: #fff; /* Set text color to white */
+}
+
+/* Input and Buttons */
+.form-control {
+    border-radius: 30px; /* Add more rounded corners */
+    padding: 15px; /* Increase padding for better input styling */
+}
+
+.input-group .btn {
+    border-radius: 30px;
+    padding: 15px 30px; /* Increase button padding */
+    font-weight: bold; /* Make the text bolder */
+    background-color: #2a1f62; /* Change button background color */
+    color: #fff; /* Button text color */
+    transition: background-color 0.2s ease-in-out;
+}
+
+.input-group .btn:hover {
+    background-color: #1d0dca; /* Change button color on hover */
+}
+
+/* Buttons Row */
+.buttonsRow {
+    margin-top: 8%; /* Reduce margin slightly */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fancy Button */
+.button-fancy {
+    background: linear-gradient(to bottom right, #6b3ce9, #3b18ff);
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 15px 30px;
+    transition: background-color 0.2s ease-in-out;
+    margin: 10px;
+}
+
+.button-fancy:hover {
+    background: linear-gradient(to bottom right, #3b18ff, #6b3ce9);
+}
+
+/* Display GIFs */
+.gifsDisplay {
+    margin-top: 10%; /* Reduce margin slightly */
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background */
+    padding: 20px; /* Add some padding */
+    border-radius: 20px; /* Add rounded corners */
+}
+
+/* Individual GIF Objects */
+.gifObj {
+    border-radius: 10px; /* Rounded corners for each GIF */
+    overflow: hidden; /* Hide overflowing content */
+    margin: 10px; /* Add spacing between GIFs */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+.gifObj:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+/* Footer */
+.footer-main {
+    background-color: #5c5b5b; /* Dark background color */
+    padding: 30px;
+    color: #fff;
+    margin-top: 90px; /* Separate footer from content */
+}
+
+/* Footer Social Icons */
+.footer-social a {
+    font-size: 24px; /* Increase icon size */
+    margin-right: 10px; /* Add spacing between icons */
+    color: #6b3ce9; /* Icon color */
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-social a:hover {
+    color: #3b18ff; /* Change icon color on hover */
+}
+
+.card {
+    background-color: #575555; /* Light gray background */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin-top: 50px; /* Adjust the margin as needed */
+    padding: 30px;
+    text-align: center;
+}
+
+.card-title {
+    color: #222121; /* Dark gray title color */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.card-text b {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    transition: transform 0.3s ease-in-out;
+}
