@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="">
+    <title>API GIFs</title>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GIPHY APP</title>
+</head>
+
+<body>
+    <nav class="navbar fade-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="" alt="">GIPHY APP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            API
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://developers.giphy.com/docs/api/">Giphy</a></li>
+                            <li><a class="dropdown-item" href="#">Developers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="welcome-text">
+            <h1>Powered By GIPHY</h1>
+            <h6>Discover amazing gifs that suit your taste</h6>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search..." id="gifName">
+                <button class="btn btn-dark" id="input-group-button-right">Search</button>
+            </div>
+        </div>
+
+        <h4 class="error"></h4>
+
+        <div class="row gap-2 buttonsRow">
+            <div class="col displayBtn ">
+                <button class="button-fancy" id="trending">Trending GIFs</button>
+            </div>
+
+            <div class="col displayBtn">
+                <button class="button-fancy" id="random">Random GIF</button>
+            </div>
+
+            <div class="col displayBtn">
+                <button class="button-fancy button-67" type="gif"><input type="file" name="" id="upload"
+                        accept="image/*">Upload GIF</button>
+            </div>
+        </div>
+
+        <div class="gifsDisplay mb-5">
+            <div class="row justify-content-md-center mt-5">
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif1"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif2"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif3"></div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center g-0">
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif4"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif5"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif6"></div>
+                </div>
+            </div>
+            <!-- <div class="row justify-content-md-center g-0">
+                
+            </div> -->
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif7"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif8"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif9"></div>
+                </div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif10"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif11"></div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="p-1 gifObj gif12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-3 col-md-4 col-sm-8">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">221B Baker Street, P.O Box 353 Park <br> Road, USA - 215431</p>
+                                        <p class="info2">Kehindeoloruntayo1@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="footer-social">
+                                    <a href="#"><i class="bi bi-facebook"></i></a>
+                                    <a href="#"><i class="bi bi-twitter"></i></a>
+                                    <a href="#"><i class="bi bi-instagram"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="about.html">Features</a></li>
+                                    <li><a href="single-blog.html">Pricing</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#"> Sitemap</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Report a bug</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Core Features</h4>
+                                <ul>
+                                    <li><a href="#">Email Marketing</a></li>
+                                    <li><a href="#"> Offline SEO</a></li>
+                                    <li><a href="#">Social Media Marketing</a></li>
+                                    <li><a href="#">Lead Generation</a></li>
+                                    <li><a href="#"> 24/7 Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
