@@ -1,11 +1,15 @@
 /* Navbar */
 .fade-nav {
-    background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
-    padding: 10px 0; /* Add some padding for readability */
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
 }
 
 .navbar-brand img {
     width: 20%;
+}
+
+.navbar-nav li.nav-item {
+    color: blue;
 }
 
 #navbarSupportedContent {
@@ -19,12 +23,12 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    font-family: Arial, sans-serif; /* Change the font for a modern look */
+    font-family: Arial, sans-serif;
 }
 
 /* Welcome Text */
 .welcome-text {
-    margin-top: 10%; /* Slightly reduce the margin */
+    margin-top: 10%;
     text-align: center; /* Center-align the text */
     color: #fff; /* Set text color to white */
 }
@@ -50,7 +54,7 @@ body {
 
 /* Buttons Row */
 .buttonsRow {
-    margin-top: 8%; /* Reduce margin slightly */
+    margin-top: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,13 +127,13 @@ body {
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    margin-top: 50px; /* Adjust the margin as needed */
+    margin-top: 50px;
     padding: 30px;
     text-align: center;
 }
 
 .card-title {
-    color: #222121; /* Dark gray title color */
+    color: #212222;
     font-size: 28px;
     margin-bottom: 20px;
 }

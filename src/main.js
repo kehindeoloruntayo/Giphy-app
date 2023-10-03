@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
 import './css/style.css';
 import Logo from './assets/img/logo.png';
 import GifController from './js/gif.js';
