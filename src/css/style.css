@@ -153,3 +153,84 @@ body {
     transform: scale(1.05); /* Enlarge the card on hover */
     transition: transform 0.3s ease-in-out;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  /* Navbar adjustments */
+  nav.navbar {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .navbar-brand img {
+    width: 30% !important;
+  }
+
+  .navbar-toggler {
+    padding: 6px 10px;
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  /* Buttons row: stack vertically */
+  .buttonsRow {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .buttonsRow .button-fancy {
+    width: 90% !important;
+    max-width: none;
+  }
+
+  /* Upload button/input inside button */
+  .button-fancy input[type="file"] {
+    width: 100% !important;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* GIF grid: 2 columns on tablets */
+  .gifsDisplay .row > div {
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    margin-bottom: 12px;
+  }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 500px) {
+
+  /* Buttons row full width */
+  .buttonsRow {
+    gap: 12px;
+  }
+
+  .buttonsRow .button-fancy {
+    width: 100% !important;
+  }
+
+  /* GIF grid: 1 column */
+  .gifsDisplay .row > div {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Navbar brand smaller */
+  .navbar-brand img {
+    width: 40% !important;
+  }
+
+  /* Ensure navbar items wrap properly */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
